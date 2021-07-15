@@ -1,0 +1,139 @@
+html {
+    margin: 0%;
+    background-image: url('assets/wp6048759.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header_nav {
+    padding-top: 1%;
+}
+.nav_bar{
+    display: inline;
+}
+.nav_title{
+    display: inline;
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+}
+.nav_link{
+    float: inline-end;
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(133, 120, 120);
+    padding-right: 1.2em; 
+    transition-delay: 32ms;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: rgb(80, 221, 45);
+}
+.nav_item{
+    display: inline;
+}
+.nav_title_link{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(191, 190, 201);
+    padding-right: 1.2em; 
+    transition-delay: 32ms;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.nav_title_link:hover{
+    color: #D653AC;
+}
+.links{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(224, 63, 63);
+    /* padding-right: 1.2em;  */
+    transition-delay: 50ms;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.links:hover{
+    color: rgb(212, 30, 30);
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.mobile_hr{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .nav_title{
+        display: block;
+        font-family: Cascadia Code, 'Courier New', Courier, monospace;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .title_hr{
+        display: none;
+    }
+    .mobile_hr{
+        display: block;
+    }
+    .nav_link{
+        float:inherit;
+        font-family: Cascadia Code, 'Courier New', Courier, monospace;
+        font-size: 1em;
+        color: rgb(133, 120, 120);
+        padding-right: 1em; 
+        transition-delay: 32ms;
+        transition-duration: 1s;
+        text-decoration: none;
+        margin-top: 120px;
+    }
+    .nav_item{
+        display: inline-block
+    }
+}
+.transparent_div{
+    background-color: rgba(22, 21, 21, 0.801);
+    border-radius: 12px;
+}
+.title{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    color: rgb(235, 215, 41);
+    text-align: center;
+}
+.content1{
+    padding-top: 1%;
+    /* padding-bottom: 1%; */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.content{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(191, 190, 201);
+}
+.subtitle{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    color: rgb(233, 204, 75);
+    text-align: left;
+}
+.list_item{
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: rgb(219, 207, 96);
+    list-style: lower-alpha;
+}
+.footer_links{
+    display: inline-block;
+    font-family: Cascadia Code, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(22, 21, 21);
+    padding-right: 1.2em; 
+    transition-delay: 50ms;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.footer_links:hover{
+    color: rgb(166, 235, 54);
+    text-decoration: underline;
+    text-decoration-color: rgb(46, 37, 37);
+}
